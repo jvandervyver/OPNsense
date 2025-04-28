@@ -2,7 +2,10 @@ Capture syslog message from wifi access points into PfSense/OPNsense syslog (ver
 
 Wifi seems to log to `hostapd`, exploit that fact by letting an access point send its logs to our PfSense/OPNsense instance and log it on machine to make diagnostics easier
 
-Determine the PfSense/OPNsense BSD version.  Download that BSD version then compile this "marvelous" piece of code
+Determine the PfSense/OPNsense BSD version.  Download that BSD version then compile this "marvelous" piece of code.
+
+OR alternatively download a compiled version for x86_64 if you want to give that a go:
+`curl --output '/usr/local/syslog_proxy/syslog_proxy_pfsense_freebsd_13.4.binary'  'https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/wifi-syslog/syslog_proxy_pfsense_freebsd_13.4.binary'`
 
 **syslog_proxy.c**
 ```c
