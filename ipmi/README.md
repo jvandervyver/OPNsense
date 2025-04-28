@@ -53,5 +53,6 @@ message:Updating IPMI TLS certificate
 description:Update IPMI TLS certificate
 ```
 
-Now create the automation:
-![img](url)
+Now create the automation in ACME Client **Automations**
+![Create automation](https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/ipmi/automation_pic.jpg)
+
