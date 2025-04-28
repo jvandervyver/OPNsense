@@ -29,6 +29,9 @@ In the Adguard UI, navigate to `Encryption settings`
 - **Certificates**
   - "Set a certificate file path" = `/usr/local/etc/lighttpd_webgui/cert.pem`
   - "Set a private key file" = `/usr/local/etc/lighttpd_webgui/key.pem`
+ 
+![part1](https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/Adguard/encryption_pt1.jpg)
+![part2](https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/Adguard/encryption_pt2.jpg)
 
 ## Post guide changes
 
