@@ -87,3 +87,9 @@ Also notice `force_https: false` and `port_https: 0`.  lighttpd, OPNsense's reve
 7. Restart Adguard home `/usr/local/etc/rc.d/adguardhome start`
 8. On any computer on the network test https://opnsense.mydomain.com/adguard
 9. On any computer on the network test DNS over HTTPS: `curl -v example.com --doh-url https://opnsense.mydomain.com/dns-query`
+
+## Optional: Lock down unbound
+
+Lock down unbound so that it cannot be used remotely directly
+
+![unbound lockdown](https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/Adguard/unbound_lockdown.jpg)
