@@ -33,7 +33,7 @@ In the Adguard UI, navigate to `Encryption settings`
 ## Post guide changes
 
 1. `ssh` to your OPNsense install and become root
-2. `curl --output '/usr/local/etc/lighttpd_webgui/conf.d/adguard_home.conf' "<link>"`
+2. `curl --output '/usr/local/etc/lighttpd_webgui/conf.d/adguard_home.conf' 'https://raw.githubusercontent.com/jvandervyver/OPNsense/refs/heads/main/Adguard/adguard_home.conf'`
 3. Restart OPNsense webGUI `/usr/local/etc/rc.restart_webgui`
 4. Stop Adguard home `/usr/local/etc/rc.d/adguardhome stop`
 5. Edit `/usr/local/AdGuardHome/AdGuardHome.yaml` with your favorite editor, ie. `vi /usr/local/AdGuardHome/AdGuardHome.yaml`
